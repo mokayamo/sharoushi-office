@@ -36,7 +36,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-xl sm:text-2xl font-bold text-primary">
+            <Link to="/" className="text-2xl sm:text-3xl font-bold text-primary">
               ◯◯社会保険労務士事務所
             </Link>
           </div>
