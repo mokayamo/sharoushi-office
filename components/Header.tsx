@@ -57,7 +57,11 @@ const Header: React.FC = () => {
                 <button
                   key={link.id}
                   onClick={() => handleScroll(link.id)}
-                  className="text-slate-600 hover:text-primary px-3 py-2 rounded-md text-base font-medium transition-colors"
+                  className={
+                    link.id === 'contact'
+                      ? "bg-primary text-white font-bold px-6 py-2 rounded-full shadow-lg hover:bg-primary-dark transform hover:-translate-y-1 transition-all duration-300"
+                      : "text-slate-600 hover:text-primary px-3 py-2 rounded-md text-base font-medium transition-colors"
+                  }
                 >
                   {link.text}
                 </button>
@@ -94,7 +98,11 @@ const Header: React.FC = () => {
               <button
                 key={link.id}
                 onClick={() => handleScroll(link.id)}
-                className="text-slate-600 hover:bg-secondary hover:text-primary block w-full text-left px-3 py-2 rounded-md text-base font-medium transition-colors"
+                className={
+                  link.id === 'contact'
+                    ? "bg-primary text-white font-bold block w-full text-center px-3 py-3 rounded-full shadow-lg hover:bg-primary-dark transition-all duration-300 mx-2 mb-2"
+                    : "text-slate-600 hover:bg-secondary hover:text-primary block w-full text-left px-3 py-2 rounded-md text-base font-medium transition-colors"
+                }
               >
                 {link.text}
               </button>
