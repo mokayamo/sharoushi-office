@@ -41,10 +41,6 @@ const Contact: React.FC = () => {
                     <br />
                     東京都◯◯区◯◯ X-X-X
                   </p>
-                  <div className="flex items-center">
-                    <svg className="h-5 w-5 text-primary mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                    <span className="text-lg text-slate-700">info@sharoushi-sample.jp</span>
-                  </div>
                 </div>
               </div>
               <div className="border-t pt-4">
