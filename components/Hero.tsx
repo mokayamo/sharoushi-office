@@ -17,7 +17,9 @@ const Hero: React.FC = () => {
           <span className="block text-primary mt-2">あなたのそばでサポートします。</span>
         </h1>
         <p className="mt-6 max-w-4xl mx-auto text-lg md:text-xl text-slate-600">
-          日々の労務管理の小さな疑問から、就業規則の作成、助成金申請まで。企業と従業員の双方にとって最適な環境づくりを、親身にサポートいたします。
+          日々の労務管理の小さな疑問から、就業規則の作成、助成金申請まで。
+          <br />
+          企業と従業員の双方にとって最適な環境づくりを、親身にサポートいたします。
         </p>
         <div className="mt-10">
           <button
