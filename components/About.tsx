@@ -40,7 +40,7 @@ const About: React.FC = () => {
               </div>
               <div className="flex border-b pb-2">
                 <dt className="w-1/3 font-semibold text-slate-700">所属社労士会</dt>
-                <dd className="w-2/3 text-slate-600">東京都社会保険労務士会</dd>
+                <dd className="w-2/3 text-slate-600">◯◯社会保険労務士会</dd>
               </div>
               <div className="flex">
                 <dt className="w-1/3 font-semibold text-slate-700">登録番号</dt>
