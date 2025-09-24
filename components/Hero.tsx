@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
             onClick={handleScrollToContact}
             className="inline-block bg-primary text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:bg-primary-dark transform hover:-translate-y-1 transition-all duration-300"
           >
-            お問い合わせはこちら
+            お問い合わせ
           </button>
         </div>
         </div>
