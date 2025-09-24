@@ -39,6 +39,7 @@ const Header: React.FC = () => {
     { id: 'about', text: '事務所紹介' },
     { id: 'services', text: '業務内容' },
     { id: 'pricing', text: '料金' },
+    { id: 'faq', text: 'Q&A' },
     { id: 'contact', text: 'お問い合わせ' },
   ];
 

@@ -2,12 +2,33 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-24 bg-white min-h-screen flex items-center">
+    <section id="about" className="py-24 bg-white min-h-screen flex items-start">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary">事務所紹介</h2>
           <p className="mt-4 text-lg text-slate-600">About Us</p>
         </div>
+
+        {/* 事務所の横長写真 */}
+        <div className="mb-16">
+          <div className="w-full h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
+            <img
+              src="/images/office/office-main.jpg"
+              alt="◯◯社会保険労務士事務所の外観"
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                // 画像が読み込めない場合はプレースホルダーを表示
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+                const parent = target.parentElement;
+                if (parent) {
+                  parent.innerHTML = '<div class="w-full h-full bg-secondary flex items-center justify-center text-primary text-2xl font-bold">事務所写真</div>';
+                }
+              }}
+            />
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
           <div className="bg-white p-8 rounded-lg shadow-md flex flex-col">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">ごあいさつ</h3>

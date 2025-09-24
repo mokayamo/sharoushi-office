@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-white min-h-screen flex items-center">
+    <section id="contact" className="py-24 bg-white min-h-screen flex items-start">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary">お問い合わせ</h2>
@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-            <p className="text-slate-500 mt-6 text-sm">メール受付: 24時間対応（返信は平日 9:00〜18:00）</p>
+            <p className="text-slate-500 mt-6 text-sm">ご相談受付: 24時間対応（返信は平日 9:00〜18:00）</p>
           </div>
           <div>
             <form onSubmit={handleSubmit} className="space-y-6">
