@@ -13,13 +13,13 @@ const About: React.FC = () => {
             <h3 className="text-2xl font-bold text-slate-800 mb-6">ごあいさつ</h3>
             <p className="text-slate-600 leading-relaxed flex-grow">
               はじめまして。代表の◯◯ ◯◯です。
-              <br/>
+              <br/><br/>
               企業の成長には、従業員が安心して働ける環境が不可欠です。
               <br/>
               しかし、複雑化する労働法規や社会保険制度に、頭を悩ませる経営者様も少なくありません。
               <br/>
               私たちは、そんな経営者様の「身近な相談相手」として、人事・労務に関するあらゆる課題解決をサポートいたします。
-              <br/>
+              <br/><br/>
               どんな些細なことでも、お気軽にご相談ください。
             </p>
           </div>
