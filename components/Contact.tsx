@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
               </div>
               <div className="border-t pt-4">
                 <div className="space-y-1 text-slate-600">
-                  <p>所属社労士会: 東京都社会保険労務士会</p>
+                  <p>所属社労士会: ◯◯社会労務士会</p>
                   <p>登録番号: 第XXXXXX号</p>
                 </div>
               </div>
