@@ -8,10 +8,10 @@ const About: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-primary">事務所紹介</h2>
           <p className="mt-4 text-lg text-slate-600">About Us</p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-4">ごあいさつ</h3>
-            <p className="text-slate-600 leading-relaxed space-y-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+          <div className="bg-white p-8 rounded-lg shadow-md flex flex-col">
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">ごあいさつ</h3>
+            <p className="text-slate-600 leading-relaxed flex-grow">
               はじめまして。代表の◯◯ ◯◯です。
               <br/>
               企業の成長には、従業員が安心して働ける環境が不可欠です。しかし、複雑化する労働法規や社会保険制度に、頭を悩ませる経営者様も少なくありません。
@@ -19,7 +19,7 @@ const About: React.FC = () => {
               私たちは、そんな経営者様の「身近な相談相手」として、人事・労務に関するあらゆる課題解決をサポートいたします。どんな些細なことでも、お気軽にご相談ください。
             </p>
           </div>
-          <div className="bg-secondary p-8 rounded-lg shadow-md">
+          <div className="bg-secondary p-8 rounded-lg shadow-md flex flex-col">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">事務所概要</h3>
             <div className="space-y-4">
               <div className="flex border-b pb-2">
