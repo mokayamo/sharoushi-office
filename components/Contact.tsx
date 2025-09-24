@@ -31,11 +31,7 @@ const Contact: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="bg-secondary p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-slate-800 mb-4">お電話・メールでのお問い合わせ</h3>
-            <p className="text-slate-600 mb-6">
-              まずはお気軽にご連絡ください。
-              <br />
-              「少し話を聞いてみたい」だけでも歓迎です。
-            </p>
+            <p className="text-slate-600 mb-6">まずはお気軽にご連絡ください。</p>
             <div className="space-y-6">
               <div>
                 <h4 className="text-xl font-semibold text-slate-800 mb-3">◯◯社会保険労務士事務所</h4>
