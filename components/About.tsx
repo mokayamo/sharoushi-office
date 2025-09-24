@@ -32,7 +32,11 @@ const About: React.FC = () => {
               </div>
               <div className="flex border-b pb-2">
                 <dt className="w-1/3 font-semibold text-slate-700">所在地</dt>
-                <dd className="w-2/3 text-slate-600">〒XXX-XXXX 東京都◯◯区◯◯ X-X-X</dd>
+                <dd className="w-2/3 text-slate-600">
+                  〒XXX-XXXX
+                  <br />
+                  東京都◯◯区◯◯ X-X-X
+                </dd>
               </div>
               <div className="flex border-b pb-2">
                 <dt className="w-1/3 font-semibold text-slate-700">営業時間</dt>
