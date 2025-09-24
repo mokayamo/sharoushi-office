@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Pricing: React.FC = () => {
+  const handleScrollToContact = () => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  };
   const pricingTiers = [
     {
       name: '顧問契約',
@@ -38,6 +41,14 @@ const Pricing: React.FC = () => {
         <div className="mt-12 text-center text-slate-500 bg-slate-100 p-4 rounded-md">
           <p>※ 上記はあくまで目安です。業務内容や企業の規模によって料金は変動いたします。</p>
           <p>まずはお客様の状況を詳しくお伺いし、最適なお見積もりをご提案させていただきますので、お気軽にお問い合わせください。</p>
+        </div>
+        <div className="mt-8 text-center">
+          <button
+            onClick={handleScrollToContact}
+            className="inline-block bg-primary text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:bg-primary-dark transform hover:-translate-y-1 transition-all duration-300"
+          >
+            お問い合わせ
+          </button>
         </div>
         </div>
     </section>
