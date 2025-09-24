@@ -35,10 +35,6 @@ const About: React.FC = () => {
                 <dd className="w-2/3 text-slate-600">〒XXX-XXXX 東京都◯◯区◯◯ X-X-X</dd>
               </div>
               <div className="flex border-b pb-2">
-                <dt className="w-1/3 font-semibold text-slate-700">電話番号</dt>
-                <dd className="w-2/3 text-slate-600">03-XXXX-XXXX</dd>
-              </div>
-              <div className="flex border-b pb-2">
                 <dt className="w-1/3 font-semibold text-slate-700">営業時間</dt>
                 <dd className="w-2/3 text-slate-600">平日 9:00〜18:00</dd>
               </div>

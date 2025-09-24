@@ -30,17 +30,13 @@ const Contact: React.FC = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="bg-secondary p-8 rounded-lg">
-            <h3 className="text-2xl font-bold text-slate-800 mb-4">お電話・メールでのお問い合わせ</h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-4">メールでのお問い合わせ</h3>
             <p className="text-slate-600 mb-6">まずはお気軽にご連絡ください。</p>
             <div className="space-y-6">
               <div>
                 <h4 className="text-xl font-semibold text-slate-800 mb-3">◯◯社会保険労務士事務所</h4>
                 <div className="space-y-2 text-slate-600">
                   <p>〒XXX-XXXX 東京都◯◯区◯◯ X-X-X</p>
-                  <div className="flex items-center">
-                    <svg className="h-5 w-5 text-primary mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                    <span className="text-xl font-semibold text-slate-700">03-XXXX-XXXX</span>
-                  </div>
                   <div className="flex items-center">
                     <svg className="h-5 w-5 text-primary mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                     <span className="text-lg text-slate-700">info@sharoushi-sample.jp</span>
@@ -54,7 +50,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-            <p className="text-slate-500 mt-6 text-sm">受付時間: 平日 9:00〜18:00</p>
+            <p className="text-slate-500 mt-6 text-sm">メール受付: 24時間対応（返信は平日 9:00〜18:00）</p>
           </div>
           <div>
             <form onSubmit={handleSubmit} className="space-y-6">
