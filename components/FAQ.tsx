@@ -14,7 +14,7 @@ const FAQ: React.FC = () => {
     <section id="faq" className="py-20 bg-secondary">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">よくあるご相談例</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary">よくあるご質問</h2>
           <p className="mt-4 text-lg text-slate-600">Common Questions</p>
         </div>
         <div className="space-y-4">
