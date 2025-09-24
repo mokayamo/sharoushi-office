@@ -61,7 +61,6 @@ const Contact: React.FC = () => {
                     <dd className="w-2/3 text-slate-600">第XXXXXX号</dd>
                   </div>
                 </div>
-                <p className="text-slate-500 mt-6 text-sm">ご相談受付: 24時間対応（返信は平日 9:00〜18:00）</p>
               </div>
             </div>
             <div>

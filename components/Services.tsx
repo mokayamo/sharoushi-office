@@ -29,12 +29,12 @@ const Services: React.FC = () => {
     {
       image: '/images/services/payroll-calculation.jpg',
       title: '給与計算',
-      description: '社会保険料の控除から税金計算まで、正確で迅速な給与計算を代行。法改正にも対応し、安心してお任せいただけます。',
+      description: '社会保険料の控除から税金計算まで、給与計算を代行。最新の法改正にも対応します。',
     },
     {
       image: '/images/services/social-insurance.jpg',
       title: '社会保険・労働保険の手続き',
-      description: '煩雑な入退社手続き、年度更新、算定基礎届などを正確かつ迅速に代行。本業に専念できる環境を整えます。',
+      description: '入退社手続き、年度更新、算定基礎届など煩雑な事務手続きを代行。',
     },
     {
       image: '/images/services/work-rules.jpg',
