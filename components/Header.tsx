@@ -18,6 +18,17 @@ const Header: React.FC = () => {
       window.location.hash = `/#${id}`;
     }
   };
+
+  const handleLogoClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (isHomePage) {
+      // If on home page, scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      // Navigate to home page
+      window.location.href = '/';
+    }
+  };
   
   // Close menu on route change
   useEffect(() => {
@@ -36,7 +47,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl sm:text-3xl font-bold text-primary">
+            <Link to="/" onClick={handleLogoClick} className="text-2xl sm:text-3xl font-bold text-primary">
               ◯◯社会保険労務士事務所
             </Link>
           </div>
